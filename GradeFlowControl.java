@@ -29,9 +29,8 @@ public class GradeFlowControl {
             System.out.println("You get a D");
         }
         else {
-            boolean b = grade < 60;
-        } {
             System.out.println("You fail");
+
         }
     }
 }

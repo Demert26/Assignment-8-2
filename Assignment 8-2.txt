@@ -1,0 +1,1341 @@
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ ls
+ About-Me/   Dell/  'Revature Training Exercises'/  'Revature documents'/   Zoom/   desktop.ini   exercises/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ cd exercise
+bash: cd: exercise: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ cd exercises
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises (main)
+$ ls
+dummy_file  week1/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises (main)
+$ cd week1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ cd unix_exercise
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house/ basement/ storage
+bash: cd: too many arguments
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house/ basement/ storage/
+bash: cd: too many arguments
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../ ../
+mv: cannot move '../' to a subdirectory of itself, '../..'
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../ ../ chest
+mv: target 'chest' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../ ../ chest/
+mv: target 'chest/' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../ ../ ..chest
+mv: target '..chest' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../
+mv: cannot stat 'treasure2': No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../basement
+mv: cannot stat 'treasure2': No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../ ../ ..
+bash: cd: too many arguments
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure2 ../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ mv treasure2 ../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt  treasure2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ mv treasure2 chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house/ basement/ laundry-room
+bash: cd: too many arguments
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../ ../ ../
+mv: cannot move '../' to a subdirectory of itself, '../..'
+mv: warning: source directory '../' specified more than once
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 ../house chest
+mv: target 'chest' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 ../house ../unix_exercise chest
+mv: target 'chest' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 ../house ../unix_exercise
+mv: target '../unix_exercise' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 ../house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ mv house unix_exercise
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  unix_exercise
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ mv unix_exercise ../treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt  treasure1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ mv treasure1 chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ treasure ..
+bash: treasure: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ treasure ../
+bash: treasure: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ trasure ../ ../floor0 ../house
+bash: trasure: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../ ../floor0 ../house
+mv: target '../house' is not a directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ trasure ../
+bash: trasure: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror  trasure
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd..
+bash: cd..: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror  trasure
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ mv trasure ../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house/floor0
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ kitchen
+bash: kitchen: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trasure4
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ../bathroom
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../bedroom1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ../dresser
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ../toy-chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  chest  floor0/  floor1/  floor2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ mv chest ../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ ls
+chest  dummy  trasure  trasure4  treasure1  treasure2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ mv chest treasure6
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  treasure1  treasure2  treasure6
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ cd house/floor2
+bash: cd: house/floor2: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ cd house/ floor2
+bash: cd: too many arguments
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ cd house
+bash: cd: house: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ cd ../house/floor2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd box2
+bash: cd: box2: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ../box2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ../../../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd house
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ mv chest ../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ ls
+chest  dummy  trasure  trasure4  treasure1  treasure2  treasure6
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ mv chest treasure8
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  treasure1  treasure2  treasure6  treasure8
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/chest (main)
+$ cd ../house/floor2/storage/box3
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../.../../chest
+mv: cannot move 'treasure9' to '../../.../../chest': No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../../floor1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../../../floor0
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bookshelf
+bash: cd: bookshelf: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../../../../../../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ ls
+ About-Me/   Dell/  'Revature Training Exercises'/  'Revature documents'/   Zoom/   desktop.ini   exercises/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ cd about-me
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git commit -m"finished exercise 8-2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   day 1 assignment/favorite tv shows.md
+        deleted:    foods
+        deleted:    hobbies
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   day 1 assignment/favorite tv shows.md
+        deleted:    foods
+        deleted:    hobbies
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ ^C
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git push
+Everything up-to-date
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ cd ../exercises/week1/unix_exercise
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ mv unix_exercise ../../../about-me
+mv: cannot stat 'unix_exercise': No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1/unix_exercise (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ mv unix_exercise ../../about-me
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ cd ../../about-me
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ ls
+'About me'   README.md  'day 1 assignment'/   unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git add unix-exercises
+fatal: pathspec 'unix-exercises' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ git add unix_exercises
+fatal: pathspec 'unix_exercises' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ cd unix_exdercises
+bash: cd: unix_exdercises: No such file or directory
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ cd unix_exercise
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git commit -m"added finished exercise"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../day 1 assignment/favorite tv shows.md
+        deleted:    ../foods
+        deleted:    ../hobbies
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../day 1 assignment/favorite tv shows.md
+        deleted:    ../foods
+        deleted:    ../hobbies
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git push
+Everything up-to-date
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add unix_exercises
+fatal: pathspec 'unix_exercises' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add unix_exercise
+fatal: pathspec 'unix_exercise' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git clone https://github.com/Demert26/About-Me.git
+Cloning into 'About-Me'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 17 (delta 4), reused 9 (delta 1), pack-reused 0
+Receiving objects: 100% (17/17), done.
+Resolving deltas: 100% (4/4), done.
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add .unix_exercise
+fatal: pathspec '.unix_exercise' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add 'unix_exercise'
+fatal: pathspec 'unix_exercise' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git push
+Everything up-to-date
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git push origin main
+Everything up-to-date
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ cd ../../
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents
+$ cd about-me
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ cd unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ ls
+About-Me/  chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ ls
+About-Me/  chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ rm -r about-me
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.idx'?
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.pack'?
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ rm -r about-me
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.idx'?
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.pack'?
+rm: cannot remove 'about-me/.git/objects/pack': Directory not empty
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ rm -r about-me
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.idx'?
+rm: remove write-protected regular file 'about-me/.git/objects/pack/pack-da7c5e0bceed71442d08889f8cd528ea508d08df.pack'?
+rm: cannot remove 'about-me/.git/objects/pack': Directory not empty
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ git push
+Everything up-to-date
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me/unix_exercise (main)
+$ cd ..
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ ls
+'About me'   README.md  'day 1 assignment'/   unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ mv unix_exercise ../exercises/week1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/about-me (main)
+$ cd ../exercises/week1/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    unix_exercise/house/basement/laundry-room/trash1
+        deleted:    unix_exercise/house/basement/laundry-room/trash2
+        deleted:    unix_exercise/house/basement/laundry-room/treasure1
+        deleted:    unix_exercise/house/basement/storage/trash3
+        deleted:    unix_exercise/house/basement/storage/treasure2
+        deleted:    unix_exercise/house/floor0/bathroom/cabinet/trasure
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trasure4
+        deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trasure5
+        deleted:    unix_exercise/house/floor1/balcony/trash10
+        deleted:    unix_exercise/house/floor1/balcony/trash11
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+        deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+        deleted:    unix_exercise/house/floor1/bedroom2/closet/treasure7
+        deleted:    unix_exercise/house/floor2/storage/box1/trash12
+        deleted:    unix_exercise/house/floor2/storage/box1/trash13
+        deleted:    unix_exercise/house/floor2/storage/box1/trash14
+        deleted:    unix_exercise/house/floor2/storage/box2/treasure8
+        deleted:    unix_exercise/house/floor2/storage/box3/trash15
+        deleted:    unix_exercise/house/floor2/storage/box3/treasure9
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        unix_exercise/chest/trasure
+        unix_exercise/chest/trasure4
+        unix_exercise/chest/trasure5
+        unix_exercise/chest/treasure1
+        unix_exercise/chest/treasure2
+        unix_exercise/chest/treasure6
+        unix_exercise/chest/treasure7
+        unix_exercise/chest/treasure8
+        unix_exercise/chest/treasure9
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add  deleted:    unix_exercise/house/basement/laundry-room/treasure1
+   deleted:    unix_exercise/house/basement/laundry-room/trash1
+        deleted:    unix_exercise/house/basement/storage/trash3
+        deleted:    unix_exercise/house/basement/storage/treasure2
+        deleted:    unix_exercise/house/floor0/bathroom/cabinet/trasure
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trasure4
+        deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+fatal: pathspec 'deleted:' did not match any files
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trasure5
+        deleted:    unix_exercise/house/floor1/balcony/trash10
+        deleted:    unix_exercise/house/floor1/balcony/trash11
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+        deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+        deleted:    unix_exercise/house/floor1/bedroom2/closet/treasure7
+        deleted:    unix_exercise/house/floor2/storage/box1/trash12
+        deleted:    unix_exercise/house/floor2/storage/box1/trash13
+        deleted:    unix_exercise/house/floor2/storage/box1/trash14
+        deleted:    unix_exercise/house/floor2/storage/box2/treasure8
+        deleted:    unix_exercise/house/floor2/storage/box3/trash15
+        deleted:    unix_exercise/house/floor2/storage/box3/treasure9
+
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/basement/laundry-room/trash2
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/basement/laundry-room/treasure1
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/basement/storage/trash3
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/basement/storage/treasure2
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/bathroom/cabinet/trasure
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/kitchen/fridge/trasure4
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor0/living-room/bookshelf/trasure5
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/balcony/trash10
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/balcony/trash11
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor1/bedroom2/closet/treasure7
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box1/trash12
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box1/trash13
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box1/trash14
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box2/treasure8
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box3/trash15
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$         deleted:    unix_exercise/house/floor2/storage/box3/treasure9
+bash: deleted:: command not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    unix_exercise/house/basement/laundry-room/trash1
+        deleted:    unix_exercise/house/basement/laundry-room/trash2
+        deleted:    unix_exercise/house/basement/laundry-room/treasure1
+        deleted:    unix_exercise/house/basement/storage/trash3
+        deleted:    unix_exercise/house/basement/storage/treasure2
+        deleted:    unix_exercise/house/floor0/bathroom/cabinet/trasure
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trasure4
+        deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trasure5
+        deleted:    unix_exercise/house/floor1/balcony/trash10
+        deleted:    unix_exercise/house/floor1/balcony/trash11
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+        deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+        deleted:    unix_exercise/house/floor1/bedroom2/closet/treasure7
+        deleted:    unix_exercise/house/floor2/storage/box1/trash12
+        deleted:    unix_exercise/house/floor2/storage/box1/trash13
+        deleted:    unix_exercise/house/floor2/storage/box1/trash14
+        deleted:    unix_exercise/house/floor2/storage/box2/treasure8
+        deleted:    unix_exercise/house/floor2/storage/box3/trash15
+        deleted:    unix_exercise/house/floor2/storage/box3/treasure9
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        unix_exercise/chest/trasure
+        unix_exercise/chest/trasure4
+        unix_exercise/chest/trasure5
+        unix_exercise/chest/treasure1
+        unix_exercise/chest/treasure2
+        unix_exercise/chest/treasure6
+        unix_exercise/chest/treasure7
+        unix_exercise/chest/treasure8
+        unix_exercise/chest/treasure9
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add  unix_exercise/house/basement/laundry-room/trash1
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    unix_exercise/house/basement/laundry-room/trash1
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    unix_exercise/house/basement/laundry-room/trash2
+        deleted:    unix_exercise/house/basement/laundry-room/treasure1
+        deleted:    unix_exercise/house/basement/storage/trash3
+        deleted:    unix_exercise/house/basement/storage/treasure2
+        deleted:    unix_exercise/house/floor0/bathroom/cabinet/trasure
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trasure4
+        deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trasure5
+        deleted:    unix_exercise/house/floor1/balcony/trash10
+        deleted:    unix_exercise/house/floor1/balcony/trash11
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+        deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+        deleted:    unix_exercise/house/floor1/bedroom2/closet/treasure7
+        deleted:    unix_exercise/house/floor2/storage/box1/trash12
+        deleted:    unix_exercise/house/floor2/storage/box1/trash13
+        deleted:    unix_exercise/house/floor2/storage/box1/trash14
+        deleted:    unix_exercise/house/floor2/storage/box2/treasure8
+        deleted:    unix_exercise/house/floor2/storage/box3/trash15
+        deleted:    unix_exercise/house/floor2/storage/box3/treasure9
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        unix_exercise/chest/trasure
+        unix_exercise/chest/trasure4
+        unix_exercise/chest/trasure5
+        unix_exercise/chest/treasure1
+        unix_exercise/chest/treasure2
+        unix_exercise/chest/treasure6
+        unix_exercise/chest/treasure7
+        unix_exercise/chest/treasure8
+        unix_exercise/chest/treasure9
+
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add .
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add deleted
+fatal: pathspec 'deleted' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add unix_exercise/house/basement/laundry-room/trash2 unix_exercise/house/basement/laundry-room/treasure1
+fatal: pathspec 'unix_exercise/house/basement/laundry-room/trash2' did not match any files
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git add .
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    unix_exercise/house/floor0/bathroom/cabinet/trasure -> unix_exercise/chest/trasure
+        renamed:    unix_exercise/house/floor0/kitchen/fridge/trasure4 -> unix_exercise/chest/trasure4
+        renamed:    unix_exercise/house/floor0/living-room/bookshelf/trasure5 -> unix_exercise/chest/trasure5
+        renamed:    unix_exercise/house/basement/laundry-room/treasure1 -> unix_exercise/chest/treasure1
+        renamed:    unix_exercise/house/basement/storage/treasure2 -> unix_exercise/chest/treasure2
+        renamed:    unix_exercise/house/basement/laundry-room/trash1 -> unix_exercise/chest/treasure6
+        renamed:    unix_exercise/house/floor1/bedroom2/closet/treasure7 -> unix_exercise/chest/treasure7
+        renamed:    unix_exercise/house/floor2/storage/box2/treasure8 -> unix_exercise/chest/treasure8
+        renamed:    unix_exercise/house/floor2/storage/box3/treasure9 -> unix_exercise/chest/treasure9
+        deleted:    unix_exercise/house/basement/laundry-room/trash2
+        deleted:    unix_exercise/house/basement/storage/trash3
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash4
+        deleted:    unix_exercise/house/floor0/kitchen/fridge/trash5
+        deleted:    unix_exercise/house/floor0/kitchen/pantry/trash6
+        deleted:    unix_exercise/house/floor0/living-room/bookshelf/trash7
+        deleted:    unix_exercise/house/floor1/balcony/trash10
+        deleted:    unix_exercise/house/floor1/balcony/trash11
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash8
+        deleted:    unix_exercise/house/floor1/bedroom1/closet/trash9
+        deleted:    unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+        deleted:    unix_exercise/house/floor2/storage/box1/trash12
+        deleted:    unix_exercise/house/floor2/storage/box1/trash13
+        deleted:    unix_exercise/house/floor2/storage/box1/trash14
+        deleted:    unix_exercise/house/floor2/storage/box3/trash15
+
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git commit -m "changes made to the assignment 8-2"
+[main 7ba67e7] changes made to the assignment 8-2
+ 24 files changed, 0 insertions(+), 0 deletions(-)
+ rename week1/unix_exercise/{house/floor0/bathroom/cabinet => chest}/trasure (100%)
+ rename week1/unix_exercise/{house/floor0/kitchen/fridge => chest}/trasure4 (100%)
+ rename week1/unix_exercise/{house/floor0/living-room/bookshelf => chest}/trasure5 (100%)
+ rename week1/unix_exercise/{house/basement/laundry-room => chest}/treasure1 (100%)
+ rename week1/unix_exercise/{house/basement/storage => chest}/treasure2 (100%)
+ rename week1/unix_exercise/{house/basement/laundry-room/trash1 => chest/treasure6} (100%)
+ rename week1/unix_exercise/{house/floor1/bedroom2/closet => chest}/treasure7 (100%)
+ rename week1/unix_exercise/{house/floor2/storage/box2 => chest}/treasure8 (100%)
+ rename week1/unix_exercise/{house/floor2/storage/box3 => chest}/treasure9 (100%)
+ delete mode 100644 week1/unix_exercise/house/basement/laundry-room/trash2
+ delete mode 100644 week1/unix_exercise/house/basement/storage/trash3
+ delete mode 100644 week1/unix_exercise/house/floor0/kitchen/fridge/trash4
+ delete mode 100644 week1/unix_exercise/house/floor0/kitchen/fridge/trash5
+ delete mode 100644 week1/unix_exercise/house/floor0/kitchen/pantry/trash6
+ delete mode 100644 week1/unix_exercise/house/floor0/living-room/bookshelf/trash7
+ delete mode 100644 week1/unix_exercise/house/floor1/balcony/trash10
+ delete mode 100644 week1/unix_exercise/house/floor1/balcony/trash11
+ delete mode 100644 week1/unix_exercise/house/floor1/bedroom1/closet/trash8
+ delete mode 100644 week1/unix_exercise/house/floor1/bedroom1/closet/trash9
+ delete mode 100644 week1/unix_exercise/house/floor1/bedroom1/toy-chest/trasure6
+ delete mode 100644 week1/unix_exercise/house/floor2/storage/box1/trash12
+ delete mode 100644 week1/unix_exercise/house/floor2/storage/box1/trash13
+ delete mode 100644 week1/unix_exercise/house/floor2/storage/box1/trash14
+ delete mode 100644 week1/unix_exercise/house/floor2/storage/box3/trash15
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git push
+remote: Permission to Revature-Training-1302/exercises.git denied to Demert26.
+fatal: unable to access 'https://github.com/Revature-Training-1302/exercises.git/': The requested URL returned error: 403
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git push https://github.com/Demert26/About-Me.git
+To https://github.com/Demert26/About-Me.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Demert26/About-Me.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git pull https://github.com/Demert26/About-Me.git
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 17 (delta 4), reused 9 (delta 1), pack-reused 0
+Unpacking objects: 100% (17/17), 2.18 KiB | 41.00 KiB/s, done.
+From https://github.com/Demert26/About-Me
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git push https://github.com/Demert26/About-Me.git
+To https://github.com/Demert26/About-Me.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Demert26/About-Me.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git push https://github.com/Demert26
+remote: Not Found
+fatal: repository 'https://github.com/Demert26/' not found
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$ git push https://github.com/Demert26/Assignment-8-2.git
+Enumerating objects: 74, done.
+Counting objects: 100% (74/74), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (57/57), done.
+Writing objects: 100% (74/74), 6.92 KiB | 1.15 MiB/s, done.
+Total 74 (delta 18), reused 42 (delta 6), pack-reused 0
+remote: Resolving deltas: 100% (18/18), done.
+To https://github.com/Demert26/Assignment-8-2.git
+ * [new branch]      main -> main
+
+Dmain26@Freckles MINGW64 ~/OneDrive/Documents/exercises/week1 (main)
+$

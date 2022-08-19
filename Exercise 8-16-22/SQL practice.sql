@@ -7,6 +7,7 @@ select * from "Employee" where "FirstName" = 'Andrew' and  "ReportsTo" isnull;
 
 select * from "Album" order by "Title" desc;
 
+
 select "FirstName"  from "Customer" order by "City" asc; 
 
 select * from "Invoice" where "BillingAddress"  like 'T%';
@@ -39,9 +40,13 @@ insert into "Customer" ( "CustomerId", "FirstName", "LastName",
 'agonzales@gmail.com',10);
 update "Customer" set "Company" = ''  where "Company"   = '';
 --delete from "Customer" where "Company" = '';
-delete from "Customer" "Fax" = '';
+--delete from "Customer" "Fax" = ;
 
 insert into "Customer" ( "CustomerId", "FirstName", "LastName", "Email") values (62,'Nancy', 'Kerrigan', 'nkerrigan@gmail.com');
 
 update "Customer" set "FirstName" = 'Robert' , "LastName" = 'Walter' where "LastName" = 'Mitchell';
 update "Artist"  set "Name" = 'CCR' where "ArtistId" = 76;
+
+create database reimbursement;
+drop database Reimbursement;
+create database pets
